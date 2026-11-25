@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | PUBG Community Tools</title>
+  <style>body{font:1rem/1.6 system-ui,sans-serif;margin:2rem auto;max-width:46rem;padding:0 1rem;color-scheme:light dark}h1,h2{line-height:1.25}</style>
+</head>
+<body><main>
+  <h1>Privacy Policy</h1>
+  <p>This policy explains how PUBG Community Tools (<code>pubg-community-tools</code>) uses information in participating subreddits and in its private moderator control panel. The app's operator and data controller for the processing described here is <strong>[OPERATOR NAME]</strong>. Contact details are in the <a href="#contact">contact section</a>.</p>
+  <p>Last updated <time datetime="2026-11-25">25 November 2026</time>.</p>
+
+  <h2>Information we use and why</h2>
+  <ul>
+    <li><strong>Event Tracker.</strong> The app retrieves event dates, times, titles, descriptions and links from a Google Calendar selected by the community to update the Reddit wiki and sidebar. It keeps wiki content and markers needed to update the managed section and preserve other edits.</li>
+    <li><strong>Tournament Thread Updater.</strong> The app reads the selected Reddit thread and retrieves match information from the PUBG API. It uses thread and match IDs, results, progress, team names and player handles to compute standings and update the thread. It can show an authorized moderator a preview before publishing.</li>
+    <li><strong>Developer Replies.</strong> When enabled, the app reads comments in the subreddit and checks the author's flair to identify replies for its pinned summary. The summary displays names, dates, excerpts and links to the source comments. The app stores thread and comment IDs and refresh times to keep the summary current. When it reads a legacy summary record, it migrates the record and removes the stored names and excerpts from that record.</li>
+    <li><strong>Post Scheduler.</strong> The app stores titles, drafts, times and publication settings supplied by moderators. New and updated records for published posts keep the Reddit post ID, title and scheduling information. The panel loads the published post body from Reddit. Older schedule records may still contain a stored copy.</li>
+    <li><strong>Operations and support.</strong> The app keeps settings, run statistics and audit entries to operate the integrations and diagnose errors. Audit entries can include timestamps, actions, errors and post or comment IDs. If you contact us, we use your message and any information you provide to respond to your request.</li>
+  </ul>
+
+  <h2>Moderator sign-in and browser storage</h2>
+  <p>Choosing <strong>Continue with Discord</strong> opens Discord's consent screen. With the <code>identify</code> permission, the panel uses your Discord ID to check its access list and your Discord username to show who is signed in. The panel uses the access token for the sign-in lookup. A temporary cookie expires after 10 minutes and verifies the sign-in attempt. The signed session cookie contains your Discord ID and username and expires after 12 hours. The panel requires an approved Discord account for access.</p>
+  <p>Signing out clears the session in that browser. You can revoke authorization in Discord under <strong>Authorized Apps</strong> and ask the operator to remove your Discord ID from the access list. The panel stores preferences such as the selected community and audit filters in browser storage until you clear the site's data or change your preferences.</p>
+
+  <h2>Where information is stored and who can see it</h2>
+  <p>Reddit hosts the Devvit app and its per-community Redis storage. The operator and authorized panel users can access the settings, records and logs needed to manage installations. Scheduled posts, tournament updates and excerpts appear on Reddit and are visible to people who can see the subreddit, thread, wiki or sidebar where they are published. Reddit handles information on its platform under the <a href="https://www.reddit.com/policies/privacy-policy">Reddit Privacy Policy</a>.</p>
+  <p>The app requests event information from Google Calendar and match information from the PUBG API. Discord handles authentication for the moderator panel. The panel is hosted by <strong>[PANEL HOST AND HOSTING REGION]</strong>. <strong>[DESCRIBE APPLICABLE INTERNATIONAL TRANSFERS, LEGAL SAFEGUARDS AND HOW TO OBTAIN A COPY]</strong>.</p>
+  <p>GitHub Pages hosts the public copies of these policies. The policy pages contain no tracking scripts. GitHub logs visitors' IP addresses for security. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
+  <p>We do not sell personal information or use it for advertising or model training.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>We keep configuration, drafts and associated records for as long as they are needed to run the installation and manage its publications. The app keeps up to 5,000 recent audit entries per installation and replaces the oldest entries as new ones are added. The Discord allowlist holds approved account IDs while they are authorized. <strong>[STATE RETENTION FOR PANEL HOST LOGS, SUPPORT MESSAGES AND BACKUPS, IF ANY]</strong>.</p>
+  <p>Reddit comment and post deletion events trigger cleanup of related reply summaries and scheduled-post records. If an older copy still appears in a summary or remains in an app record, contact us so we can locate and remove it. We handle deletion requests under the applicable Reddit requirements and privacy laws.</p>
+
+  <h2>Legal bases and privacy rights</h2>
+  <p>Depending on applicable law, you may have the right to access, correct or erase your personal information, restrict or object to its processing, or receive a portable copy. Where processing relies on consent, you can withdraw it. You may also lodge a complaint with the applicable data protection authority.</p>
+
+  <h2 id="contact">Contact and privacy requests</h2>
+  <p>For privacy questions or to request access, correction or deletion, contact <strong>[OPERATOR CONTACT EMAIL]</strong>. You can also use <strong>Message the mods</strong> in the subreddit where the app operated. Include only what we need to find the affected content or account, such as a link to the relevant Reddit comment or post.</p>
+  <ul>
+    <li><a href="https://www.reddit.com/message/compose/?to=/r/PUBATTLEGROUNDS">Message the r/PUBATTLEGROUNDS moderators</a></li>
+    <li><a href="https://www.reddit.com/message/compose/?to=/r/PUBGConsole">Message the r/PUBGConsole moderators</a></li>
+    <li><a href="https://www.reddit.com/message/compose/?to=/r/CompetitivePUBG">Message the r/CompetitivePUBG moderators</a></li>
+  </ul>
+  <p><a href="terms.html">Terms and Conditions</a></p>
+</main></body>
+</html>
